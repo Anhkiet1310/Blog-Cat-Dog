@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cat_Dog_Platform_BE.Model;
+namespace Cat_Dog_Platform_BE.Team2.DogCatPlatform.Repository.Model;
 
 public partial class Pet
 {
@@ -9,11 +9,9 @@ public partial class Pet
 
     public string? PetName { get; set; }
 
-    public string? Type { get; set; }
-
     public int? PetAge { get; set; }
 
-    public float? Weight { get; set; }
+    public float? Weight { get ; set; }
 
     public float? Price { get; set; }
 

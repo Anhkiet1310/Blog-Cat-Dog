@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Cat_Dog_Platform_BE.Model;
+namespace Cat_Dog_Platform_BE.Team2.DogCatPlatform.Repository.Model;
 
 public partial class SwpProjectContext : DbContext
 {
@@ -21,7 +21,7 @@ public partial class SwpProjectContext : DbContext
 
     public virtual DbSet<Blogcatelogry> Blogcatelogries { get; set; }
 
-    public virtual DbSet<Pet> Pets { get; set; }
+    public virtual DbSet<Pet> Pet { get; set; }
 
     public virtual DbSet<Pettrade> Pettrades { get; set; }
 
@@ -137,7 +137,6 @@ public partial class SwpProjectContext : DbContext
                 .HasColumnName("PetType_idPetType");
             entity.Property(e => e.PetImage).HasColumnType("text");
             entity.Property(e => e.PetName).HasMaxLength(255);
-            entity.Property(e => e.Type).HasMaxLength(50);
 
             entity.HasOne(d => d.PetTypeIdPetTypeNavigation).WithMany(p => p.Pets)
                 .HasForeignKey(d => d.PetTypeIdPetType)

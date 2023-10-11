@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cat_Dog_Platform_BE.Model;
+namespace Cat_Dog_Platform_BE.Team2.DogCatPlatform.Repository.Model;
 
 public partial class Post
 {
