@@ -9,14 +9,19 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { createPostmodalStyle } from "../../style/style";
 import { CreatePostModal } from "../../components/Modal";
+import { PhotoArrageImgUrl } from "../../components/PhotoArrage";
+import { CommentModal } from "../../components/CommentModal";
 
 const PostList = () => {
   //const posts = useLoaderData();
   const account = useRecoilValue(accountAtom);
+  const [postForCommentModal, setPFCM] = useState();
   const [posts, setPosts] = useState([]);
   const [open, setOpen] = useState(false);
+  const [openCM, setOpenCM] = useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleOpenCM = () => setOpenCM(true);
+
   useEffect(() => {
     const CallBack = async () => {
       const getPosts = await api.getAllPost();
@@ -24,6 +29,18 @@ const PostList = () => {
     };
     CallBack();
   }, []);
+
+  const handleClose = async () => {
+    setOpen(false);
+    setOpenCM(false);
+    const getPosts = await api.getAllPost();
+    setPosts(getPosts);
+  };
+
+  const likePost = async (postId) =>{
+    const result = await api.likePost(account.accountId, postId)
+    console.log(result);
+  }
   return (
     <>
       <div className="text-white mt-32 mb-32">
@@ -43,7 +60,7 @@ const PostList = () => {
           <>
             <div
               key={post.postId}
-              className="rounded-xl w-5/12 m-auto bg-neutral-800"
+              className="rounded-xl w-5/12 m-auto bg-neutral-800 mb-20"
             >
               <div className="pt-3 mx-5">
                 <div className="font-medium">{post?.account?.username}</div>
@@ -51,11 +68,14 @@ const PostList = () => {
                   {post?.createdDate}
                 </div>
               </div>
-              <div className="my-5 mx-5 pl-2">{post?.content}</div>
+              <div
+                className="my-5 mx-5 pl-2"
+                dangerouslySetInnerHTML={{ __html: post?.content }}
+              ></div>
 
               {post?.images ? (
                 <div className="my-5 mx-5 pl-2">
-                  <img src={post?.images} />
+                  <PhotoArrageImgUrl urls={post?.images?.split(",")} />
                 </div>
               ) : (
                 ""
@@ -63,11 +83,17 @@ const PostList = () => {
 
               <div className="bg-neutral-700 h-1 w-full" />
               <div className="flex justify-between text-neutral-400 mx-10 py-5">
-                <div>
-                  <ThumbUpOffAltIcon /> Thích
+                <div onClick={() => likePost(post.postId)}>
+                  <ThumbUpOffAltIcon /> Thích {post.postLikes.length>0?post.postComments.length:""}
                 </div>
                 <div>
-                  <ChatBubbleOutlineIcon /> Bình luận
+                  <ChatBubbleOutlineIcon
+                    onClick={() => {
+                      setPFCM(post);
+                      handleOpenCM();
+                    }}
+                  />{" "}
+                  Bình luận
                 </div>
                 <div>
                   <SendIcon /> Chia sẻ
@@ -86,7 +112,18 @@ const PostList = () => {
         aria-describedby="modal-modal-description"
       >
         <Box sx={createPostmodalStyle}>
-          <CreatePostModal />
+          <CreatePostModal handleClose={handleClose} />
+        </Box>
+      </Modal>
+
+      <Modal
+        open={openCM}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={createPostmodalStyle}>
+          <CommentModal handleClose={handleClose} Post={postForCommentModal} />
         </Box>
       </Modal>
     </>
