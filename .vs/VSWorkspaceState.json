@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Cat_Dog_Platform_BE",
-    "\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE"
+    "\\Cat_Dog_Platform_BE\\BlogAnimalApi",
+    "\\Cat_Dog_Platform_BE\\Team2.DogCatPlatform.API",
+    "\\Cat_Dog_Platform_BE\\Team2.DogCatPlatform.Repository"
   ],
-  "SelectedNode": "\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.sln",
+  "SelectedNode": "\\Cat_Dog_Platform_BE\\BlogAnimalApi\\cat_dog_Plaform",
   "PreviewInSolutionExplorer": false
 }
