@@ -1,0 +1,249 @@
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.Development.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.exe
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.deps.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.runtimeconfig.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.pdb
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Humanizer.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Json.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.AssemblyReference.cache
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfoInputs.cache
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfo.cs
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CoreCompileInputs.cache
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cs
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cache
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.BlogAnimalApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.build.BlogAnimalApi.props
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlogAnimalApi.props
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlogAnimalApi.props
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\scopedcss\bundle\BlogAnimalApi.styles.css
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CopyComplete
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\refint\BlogAnimalApi.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.pdb
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.genruntimeconfig.cache
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\ref\BlogAnimalApi.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\VSCode project\ReactJS+.Net\BlogAnimal\BlogAnimal\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.exe
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.deps.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.runtimeconfig.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.pdb
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.AssemblyReference.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfoInputs.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfo.cs
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CoreCompileInputs.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.BlogAnimalApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.build.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\scopedcss\bundle\BlogAnimalApi.styles.css
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CopyComplete
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\refint\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.pdb
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.genruntimeconfig.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimal-main\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\ref\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.exe
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.deps.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.runtimeconfig.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\BlogAnimalApi.pdb
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.AssemblyReference.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfoInputs.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.AssemblyInfo.cs
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CoreCompileInputs.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.BlogAnimalApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.build.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlogAnimalApi.props
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\scopedcss\bundle\BlogAnimalApi.styles.css
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.csproj.CopyComplete
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\refint\BlogAnimalApi.dll
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.pdb
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\BlogAnimalApi.genruntimeconfig.cache
+C:\Users\Tan\Downloads\Compressed\BlogAnimalApi\BlogAnimalApi\obj\Debug\net6.0\ref\BlogAnimalApi.dll
