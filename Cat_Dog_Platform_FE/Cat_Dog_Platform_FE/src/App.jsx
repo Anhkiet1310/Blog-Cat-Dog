@@ -23,9 +23,13 @@ import { Profile } from "./pages/Profile/Profile";
 import { profileLoader } from "./pages/Profile/ProfileLoader";
 import { SearchPage } from "./pages/SearchPage/SearchPage";
 import { searchPageLoader } from "./pages/SearchPage/SearchPageLoader";
+import UnsecureTrade from "./pages/Trade/UnsecureTrade";
 
 const LazyPostList = lazy(() => import("./pages/Posts/PostList"));
+const LazyUnsecurePostList = lazy(() => import("./pages/Posts/UnsecurePostList"));
 const LazyBlogList = lazy(() => import("./pages/Blogs/BlogList"));
+const LazyTradeList = lazy(() => import("./pages/Trade/TradePost"));
+const LazyUnsecureTrade = lazy(() => import("./pages/Trade/UnsecureTrade"));
 
 function App() {
   const router = createBrowserRouter(
@@ -48,6 +52,30 @@ function App() {
             element={
               <Suspense fallback={<h1 className="text-white">Loading...</h1>}>
                 <LazyPostList />
+              </Suspense>
+            }
+          />TradePost
+          <Route
+            path="UnsecurePosts"
+            element={
+              <Suspense fallback={<h1 className="text-white">Loading...</h1>}>
+                <LazyUnsecurePostList />
+              </Suspense>
+            }
+          />
+          <Route
+            path="TradePost"
+            element={
+              <Suspense fallback={<h1 className="text-white">Loading...</h1>}>
+                <LazyTradeList />
+              </Suspense>
+            }
+          />
+          <Route
+            path="UnsecureTrade"
+            element={
+              <Suspense fallback={<h1 className="text-white">Loading...</h1>}>
+                <LazyUnsecureTrade />
               </Suspense>
             }
           />

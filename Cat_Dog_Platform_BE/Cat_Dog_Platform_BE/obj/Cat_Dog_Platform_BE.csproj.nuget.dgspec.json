@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tan\\Downloads\\Compressed\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj": {}
+    "C:\\Cat_Dog_Platform\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tan\\Downloads\\Compressed\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj": {
+    "C:\\Cat_Dog_Platform\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tan\\Downloads\\Compressed\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj",
+        "projectUniqueName": "C:\\Cat_Dog_Platform\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj",
         "projectName": "Cat_Dog_Platform_BE",
-        "projectPath": "C:\\Users\\Tan\\Downloads\\Compressed\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj",
+        "projectPath": "C:\\Cat_Dog_Platform\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE.csproj",
         "packagesPath": "C:\\Users\\Tan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tan\\Downloads\\Compressed\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\obj\\",
+        "outputPath": "C:\\Cat_Dog_Platform\\Cat_Dog_Platform_BE\\Cat_Dog_Platform_BE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

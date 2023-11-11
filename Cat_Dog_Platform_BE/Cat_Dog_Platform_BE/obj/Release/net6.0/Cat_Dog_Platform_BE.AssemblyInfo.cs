@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9f89b124-1cad-4f6c-9244-81f54bd05dcf")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cat_Dog_Platform_BE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

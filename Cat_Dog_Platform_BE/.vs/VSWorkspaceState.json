@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Cat_Dog_Platform_BE",
-    "\\Cat_Dog_Platform_BE\\Team2.Cat_Dog_Platform.Service",
-    "\\Cat_Dog_Platform_BE\\Team2.Cat_Dog_Platform.Service\\DTO"
+    ""
   ],
-  "SelectedNode": "\\Cat_Dog_Platform_BE\\Team2.Cat_Dog_Platform.Service\\DTO\\BlogCommentDTO.cs",
+  "SelectedNode": "\\Cat_Dog_Platform_BE.sln",
   "PreviewInSolutionExplorer": false
 }
