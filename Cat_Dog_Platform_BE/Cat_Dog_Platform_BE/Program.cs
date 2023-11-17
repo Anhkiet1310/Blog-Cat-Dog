@@ -1,8 +1,8 @@
+using Cat_Dog_Platform_BE;
 using Cat_Dog_Platform_BE.Entity;
+using Cat_Dog_Platform_BE.Helper;
 using Cat_Dog_Platform_BE.Repository;
 using Cat_Dog_Platform_BE.Services;
-using Cat_Dog_Platform_BE.Team2.DogCatPlatform.Repository.Helper;
-using Cat_Dog_Platform_BE.Team2.DogCatPlatform.Repository.Repository;
 using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers(options =>
-{ 
+{
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

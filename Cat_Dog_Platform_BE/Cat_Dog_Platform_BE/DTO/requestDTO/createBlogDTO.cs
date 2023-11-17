@@ -1,6 +1,6 @@
-﻿using BlogAnimalApi.Entity;
+﻿using Cat_Dog_Platform_BE.Entity;
 
-namespace BlogAnimalApi.DTO.requestDTO
+namespace Cat_Dog_Platform_BE.DTO.requestDTO
 {
     public class createBlogDTO
     {
