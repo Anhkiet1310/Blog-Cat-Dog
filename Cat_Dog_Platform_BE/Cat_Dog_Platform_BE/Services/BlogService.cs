@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using Cat_Dog_Platform_BE.DTO;
-using Cat_Dog_Platform_BE.DTO.requestDTO;
-using Cat_Dog_Platform_BE.Entity;
-using Cat_Dog_Platform_BE.Repository;
+using BlogAnimalApi.DTO;
+using BlogAnimalApi.DTO.requestDTO;
+using BlogAnimalApi.Entity;
+using BlogAnimalApi.Repository;
 using System.Numerics;
 
-namespace Cat_Dog_Platform_BE.Services
+namespace BlogAnimalApi.Services
 {
     public class BlogService : Service
     {
