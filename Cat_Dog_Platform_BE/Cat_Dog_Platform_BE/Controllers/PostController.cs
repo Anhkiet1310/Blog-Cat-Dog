@@ -1,10 +1,11 @@
-﻿using Cat_Dog_Platform_BE.DTO.requestDTO;
-using Cat_Dog_Platform_BE.Entity;
-using Cat_Dog_Platform_BE.Services;
+﻿using BlogAnimalApi.DTO;
+using BlogAnimalApi.DTO.requestDTO;
+using BlogAnimalApi.Entity;
+using BlogAnimalApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Cat_Dog_Platform_BE.Controllers
+namespace BlogAnimalApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -38,6 +39,36 @@ namespace Cat_Dog_Platform_BE.Controllers
                 Post post = await postService.CreatePost(cPostDTO);
                 return Ok(post);
             }catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> updatePost(UpdatePostDTO postDTO)
+        {
+            try
+            {
+                Post post = await postService.UpdatePost(postDTO);
+                return Ok(post);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpPut("uploadImg/{id}")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> updateImagePost(List<IFormFile> Images, string id)
+        {
+            try
+            {
+                await postService.updateUploadImg(Request.Form.Files, id);
+                return StatusCode(StatusCodes.Status201Created);
+            }
+            catch (Exception ex)
             {
                 return Ok(ex.Message);
             }

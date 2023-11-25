@@ -1,6 +1,6 @@
-﻿using Cat_Dog_Platform_BE.Entity;
+﻿using BlogAnimalApi.Entity;
 
-namespace Cat_Dog_Platform_BE.DTO
+namespace BlogAnimalApi.DTO
 {
     public class PostCommentDTO
     {

@@ -1,11 +1,11 @@
-﻿using Cat_Dog_Platform_BE.DTO;
-using Cat_Dog_Platform_BE.DTO.requestDTO;
-using Cat_Dog_Platform_BE.Helper;
-using Cat_Dog_Platform_BE.Services;
+﻿using BlogAnimalApi.DTO;
+using BlogAnimalApi.DTO.requestDTO;
+using BlogAnimalApi.Helper;
+using BlogAnimalApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
-namespace Cat_Dog_Platform_BE.Controllers
+namespace BlogAnimalApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

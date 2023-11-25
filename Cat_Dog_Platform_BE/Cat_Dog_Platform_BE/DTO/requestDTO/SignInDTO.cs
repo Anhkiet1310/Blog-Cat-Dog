@@ -1,4 +1,4 @@
-﻿namespace Cat_Dog_Platform_BE.DTO.requestDTO
+﻿namespace BlogAnimalApi.DTO.requestDTO
 {
     public class SignInDTO
     {
