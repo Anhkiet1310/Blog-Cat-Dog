@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Cat_Dog_Platform_BE.props" />
-</Project>
