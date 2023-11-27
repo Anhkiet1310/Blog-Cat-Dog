@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../api/api";
 import { useRecoilValue } from "recoil";
-import { accountAtom } from "../../atom/accountAtom";
+import { accountAtom, backgroundState } from "../../atom/accountAtom";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { createPostImagemodalStyle } from "../../style/style";
@@ -10,18 +10,33 @@ import { PostImagesModal } from "../../components/PostImagesModal";
 import MenuIcon from "@mui/icons-material/Menu";
 import DeleteIcon from "@mui/icons-material/Delete";
 import BeenhereIcon from "@mui/icons-material/Beenhere";
+import { EditPostModal } from "../../components/Modals/EditPostModal";
+import EditIcon from '@mui/icons-material/Edit';
+import { scrollToElement } from "../../utils/util";
+import { useParams } from "react-router-dom";
 
 const UnsecurePostList = () => {
   //const posts = useLoaderData();
+  const { id } = useParams();
+  const bg = useRecoilValue(backgroundState)
   const account = useRecoilValue(accountAtom);
   const [postForImageModal, setPFIM] = useState();
   const [posts, setPosts] = useState([]);
+  const [editPost, setEditpost] = useState();
   const [openPI, setOpenPI] = useState(false);
+  const [openEM, setOpenEditModal] = useState(false);
   const handleOpenPI = () => setOpenPI(true);
-
+  const handleOpenEditModal = () => setOpenEditModal(true);
   const CallBack = async () => {
     const getPosts = await api.getAllPost();
-    setPosts(getPosts.filter((post) => !post.isSecure));
+    account.roleId === 1
+      ? setPosts(getPosts.filter((post) => !post.isSecure))
+      : setPosts(
+          getPosts.filter(
+            (post) =>
+              !post.isSecure && post?.accountId == account.accountId
+          )
+        );
   };
 
   useEffect(() => {
@@ -30,18 +45,25 @@ const UnsecurePostList = () => {
 
   const handleClose = async () => {
     setOpenPI(false);
-    const getPosts = await api.getAllPost();
-    setPosts(getPosts);
+    setOpenEditModal(false)
+    await CallBack()
   };
+
+  useEffect(() => {
+    if(id){
+      scrollToElement(id)
+    }
+  })
 
   return (
     <>
-      <div className="text-white mt-20 pb-32">
+      <div className={`${bg==="dark"?"text-white":"text-black"} mt-20 pb-32`}>
         {posts?.map((post) => (
           <>
             <div
+            id={post.postId}
               key={post.postId}
-              className="rounded-xl w-5/12 m-auto bg-neutral-800 mb-20 py-5"
+              className={`rounded-xl w-5/12 m-auto ${bg==="dark"?"bg-neutral-800":"bg-white border"} mb-20 py-5`}
             >
               <div className="pt-3 mx-5">
                 <div className="font-medium text-lg flex items-center mb-3 justify-between">
@@ -52,11 +74,9 @@ const UnsecurePostList = () => {
                     />
                     {post?.account?.username}
                   </div>
-                  {(account &&
-                    post?.account?.accountId === account?.accountId) ||
-                  account?.roleId === 1 ? (
+                  {account && account?.roleId === 1 ? (
                     <div
-                      className="p-3 bg-neutral-800 menudiv"
+                      className={`p-3 ${bg==="dark"?"bg-neutral-800":"bg-white"} menudiv`}
                       onClick={(event) => {
                         const deleteBtn = event.target
                           .closest(".menudiv")
@@ -69,7 +89,7 @@ const UnsecurePostList = () => {
                       }}
                     >
                       <MenuIcon />
-                      <div className="absolute hidden bg-neutral-800 py-3 px-5">
+                      <div className={`absolute hidden ${bg==="dark"?"bg-neutral-800":"bg-white border"} py-3 px-5`}>
                         <div
                           onClick={async () => {
                             await api.deletePost(post.postId);
@@ -77,7 +97,7 @@ const UnsecurePostList = () => {
                           }}
                           className="text-red-500 flex items-center"
                         >
-                          <DeleteIcon /> Delete
+                          <DeleteIcon /> Xóa
                         </div>
                         <div
                           onClick={async () => {
@@ -86,13 +106,45 @@ const UnsecurePostList = () => {
                           }}
                           className="text-green-500 flex items-center mt-3"
                         >
-                          <BeenhereIcon /> Secure
+                          <BeenhereIcon /> Duyệt
                         </div>
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-neutral-800 menudiv">
+                    <div
+                    className={`p-3 ${bg==="dark"?"bg-neutral-800":"bg-white"} menudiv`}
+                      onClick={(event) => {
+                        const deleteBtn = event.target
+                          .closest(".menudiv")
+                          .querySelector("div");
+                        if (!deleteBtn.classList.contains("hidden")) {
+                          deleteBtn.classList.add("hidden");
+                        } else {
+                          deleteBtn.classList.remove("hidden");
+                        }
+                      }}
+                    >
                       <MenuIcon />
+                      <div className={`absolute hidden ${bg==="dark"?"bg-neutral-800":"bg-white border"} py-3 px-5`}>
+                        <div
+                          onClick={async () => {
+                            await api.deletePost(post.postId);
+                            await CallBack();
+                          }}
+                          className="text-red-500 flex items-center"
+                        >
+                          <DeleteIcon /> Xóa
+                        </div>
+                        <div
+                          onClick={() => {
+                            setEditpost(post)
+                            handleOpenEditModal()
+                          }}
+                          className="text-blue-500 flex items-center"
+                        >
+                          <EditIcon /> Chỉnh sửa
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -134,6 +186,17 @@ const UnsecurePostList = () => {
       >
         <Box sx={createPostImagemodalStyle}>
           <PostImagesModal Post={postForImageModal} />
+        </Box>
+      </Modal>
+
+      <Modal
+        open={openEM}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={createPostImagemodalStyle}>
+          <EditPostModal post={editPost} handleClose={handleClose} />
         </Box>
       </Modal>
     </>

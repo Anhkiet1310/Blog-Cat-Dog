@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../api/api";
 import { useRecoilValue } from "recoil";
-import { accountAtom } from "../../atom/accountAtom";
+import { accountAtom, backgroundState } from "../../atom/accountAtom";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { createPostImagemodalStyle } from "../../style/style";
@@ -14,6 +14,7 @@ import { numberToVietnameseDong } from "../../utils/util";
 
 const UnsecureTrade = () => {
   //const posts = useLoaderData();
+  const bg = useRecoilValue(backgroundState);
   const account = useRecoilValue(accountAtom);
   const [posts, setPosts] = useState([]);
   const [openPI, setOpenPI] = useState(false);
@@ -21,7 +22,13 @@ const UnsecureTrade = () => {
 
   const CallBack = async () => {
     const getPosts = await api.getAllTradePost();
-    setPosts(getPosts.filter((post) => !post.isSecure));
+    account.roleId === 1
+      ? setPosts(getPosts.filter((post) => !post.isSecure))
+      : setPosts(
+          getPosts.filter(
+            (post) => !post.isSecure && post?.accountId == account.accountId
+          )
+        );
   };
 
   useEffect(() => {
@@ -36,12 +43,16 @@ const UnsecureTrade = () => {
 
   return (
     <>
-      <div className="text-white mt-20 pb-32">
+      <div
+        className={`${bg === "dark" ? "text-white" : "text-black"} mt-20 pb-32`}
+      >
         {posts?.map((post) => (
           <>
             <div
               key={post.tradeId}
-              className="rounded-xl w-5/12 m-auto bg-neutral-800 mb-20 py-5"
+              className={`rounded-xl w-5/12 m-auto ${
+                bg === "dark" ? "bg-neutral-800" : "bg-white border"
+              } mb-20 py-5`}
             >
               <div className="pt-3 mx-5">
                 <div className="font-medium text-lg flex items-center mb-3 justify-between">
@@ -52,11 +63,11 @@ const UnsecureTrade = () => {
                     />
                     {post?.account?.username}
                   </div>
-                  {(account &&
-                    post?.account?.accountId === account?.accountId) ||
-                  account?.roleId === 1 ? (
+                  {account?.roleId === 1 ? (
                     <div
-                      className="p-3 bg-neutral-800 menudiv"
+                      className={`p-3 ${
+                        bg === "dark" ? "bg-neutral-800" : "bg-white"
+                      } menudiv`}
                       onClick={(event) => {
                         const deleteBtn = event.target
                           .closest(".menudiv")
@@ -69,7 +80,11 @@ const UnsecureTrade = () => {
                       }}
                     >
                       <MenuIcon />
-                      <div className="absolute hidden bg-neutral-800 py-3 px-5">
+                      <div
+                        className={`absolute hidden ${
+                          bg === "dark" ? "bg-neutral-800" : "bg-white border"
+                        } py-3 px-5`}
+                      >
                         <div
                           onClick={async () => {
                             await api.deleteTrade(post.tradeId);
@@ -77,7 +92,7 @@ const UnsecureTrade = () => {
                           }}
                           className="text-red-500 flex items-center"
                         >
-                          <DeleteIcon /> Delete
+                          <DeleteIcon /> Xóa
                         </div>
                         <div
                           onClick={async () => {
@@ -86,13 +101,42 @@ const UnsecureTrade = () => {
                           }}
                           className="text-green-500 flex items-center mt-3"
                         >
-                          <BeenhereIcon /> Secure
+                          <BeenhereIcon /> Duyệt
                         </div>
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-neutral-800 menudiv">
+                    <div
+                      className={`p-3 ${
+                        bg === "dark" ? "bg-neutral-800" : "bg-white"
+                      } menudiv`}
+                      onClick={(event) => {
+                        const deleteBtn = event.target
+                          .closest(".menudiv")
+                          .querySelector("div");
+                        if (!deleteBtn.classList.contains("hidden")) {
+                          deleteBtn.classList.add("hidden");
+                        } else {
+                          deleteBtn.classList.remove("hidden");
+                        }
+                      }}
+                    >
                       <MenuIcon />
+                      <div
+                        className={`absolute hidden ${
+                          bg === "dark" ? "bg-neutral-800" : "bg-white border"
+                        } py-3 px-5`}
+                      >
+                        <div
+                          onClick={async () => {
+                            await api.deleteTrade(post.tradeId);
+                            await CallBack();
+                          }}
+                          className="text-red-500 flex items-center"
+                        >
+                          <DeleteIcon /> Xóa
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -100,11 +144,14 @@ const UnsecureTrade = () => {
                   {post?.createdDate}
                 </div>
               </div>
+              <div className="my-5 mx-5 pl-2 font-medium">{post?.title}</div>
               <div
                 className="my-5 mx-5 pl-2"
                 dangerouslySetInnerHTML={{ __html: post?.content }}
               ></div>
-              <div className="my-5 mx-5 pl-2">{numberToVietnameseDong(post.price)}</div>
+              <div className="my-5 mx-5 pl-2">
+                {numberToVietnameseDong(post.price)}
+              </div>
             </div>
           </>
         ))}

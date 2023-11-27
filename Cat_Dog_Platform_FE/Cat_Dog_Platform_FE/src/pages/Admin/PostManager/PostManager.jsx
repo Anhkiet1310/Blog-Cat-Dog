@@ -7,33 +7,30 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
-import { useLoaderData } from "react-router-dom";
-import api from "../../../api/api";
+import { Link, useLoaderData } from "react-router-dom";
+import { CreateBlogModal } from "../../../components/Modals/CreateBlogModal";
 import { useState } from "react";
-import { useEffect } from "react";
-import { getAdminDashBoard } from "../../../utils/util";
-import animalbg from "../../../assets/animalBg.png";
+import { Box, Modal } from "@mui/material";
+import {
+  createPostImagemodalStyle,
+  createPostmodalStyle,
+} from "../../../style/style";
+import api from "../../../api/api";
 import { useRecoilValue } from "recoil";
 import { backgroundState } from "../../../atom/accountAtom";
 
 const columns = [
-  { id: "accountId", label: "Account ID", minWidth: 170 },
-  { id: "username", label: "Username", minWidth: 100 },
+  { id: "postId", label: "Post #", minWidth: 170 },
+  { id: "title", label: "Title", minWidth: 100 },
   {
-    id: "email",
-    label: "Email",
+    id: "username",
+    label: "CreatedBy",
     minWidth: 170,
     align: "right",
   },
   {
-    id: "role",
-    label: "Role",
-    minWidth: 170,
-    align: "right",
-  },
-  {
-    id: "isBanned",
-    label: "Status",
+    id: "createdDate",
+    label: "CreatedDate",
     minWidth: 170,
     align: "right",
   },
@@ -50,29 +47,19 @@ const columns = [
 //   return { blogId:name, title:code, population, size, density };
 // }
 
-export const AccountManager = () => {
+export const PostManager = () => {
   const bg = useRecoilValue(backgroundState);
-  const loaderAccounts = useLoaderData();
-  const [Accounts, setAccounts] = useState(loaderAccounts);
+  const loaderPosts = useLoaderData();
+  const [Posts, setPosts] = useState(loaderPosts);
+  const [ModalBlog, setModalBlog] = useState();
   const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
-  const [Nob, setNob] = useState();
-  const [Nop, setNop] = useState();
-  const [Noc, setNoc] = useState();
-  const [Nou, setNou] = useState();
-  const [Notp, setNotp] = useState();
-
-  useEffect(() => {
-    callback();
-  }, []);
-
-  const callback = async () => {
-    const { gNob, gNop, gNou, gNoc, gNotp } = await getAdminDashBoard();
-    setNob(gNob);
-    setNop(gNop);
-    setNoc(gNoc);
-    setNou(gNou);
-    setNotp(gNotp);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = async () => {
+    setOpen(false);
+    const blogs = await api.getAllBlog();
+    setBlogs(blogs);
   };
 
   const handleChangePage = (event, newPage) => {
@@ -84,48 +71,61 @@ export const AccountManager = () => {
     setPage(0);
   };
 
-  const banAccount = async (accountId) => {
-    await api.banAccount(accountId);
-    const accounts = await api.getAllAccounts();
-    setAccounts(accounts);
-  };
-
-  const rows = Accounts.map((acc) => {
+  const rows = Posts.map((post) => {
     return {
-      accountId: acc.accountId,
-      username: acc.username,
-      email: acc.email,
-      role: acc?.role?.roleName,
-      isBanned: acc.isBanned ? (
-        <span className="text-red-500">banned</span>
-      ) : (
-        <span className="text-green-400">activate</span>
-      ),
+      postId: post.postId,
+      title: post.title,
+      username: post?.account?.username,
+      createdDate: post.createdDate,
       action: (
         <>
           <div className="flex flex-col">
             <div>
-              {acc.isBanned ? (
-                <button
-                  onClick={() => banAccount(acc.accountId)}
-                  className="p-2 w-20 mb-1 bg-green-400 rounded-xl text-white"
-                >
-                  UnBan
-                </button>
-              ) : (
-                <button
-                  onClick={() => banAccount(acc.accountId)}
-                  className="p-2 w-20 mb-1 bg-red-500 rounded-xl text-white"
-                >
-                  Ban
-                </button>
-              )}
-            </div>
-            {/* <div>
-              <button className="p-2 w-20 mb-1 bg-blue-500 rounded-xl text-white">
-                Info
+              <button
+                onClick={async () => {
+                  await api.deletePost(post.postId);
+                  const posts = await api.getAllPost();
+                  setPosts(posts);
+                }}
+                className="p-2 w-20 mb-1 bg-red-500 rounded-xl text-white"
+              >
+                Xóa
               </button>
-            </div> */}
+            </div>
+            {post.isSecure ? (
+              <>
+                <div>
+                  <button className="p-2 w-20 mb-1 bg-green-500 rounded-xl text-white">
+                    Đã duyệt
+                  </button>
+                </div>
+                <Link to={`/${post.postId}`}>
+                  <button className="p-2 w-20 mb-1 bg-blue-500 rounded-xl text-white">
+                    Chi tiết
+                  </button>
+                </Link>
+              </>
+            ) : (
+              <>
+                <div>
+                  <button
+                    onClick={async () => {
+                      await api.securePost(post.postId);
+                      const posts = await api.getAllPost();
+                      setPosts(posts);
+                    }}
+                    className="p-2 w-20 mb-1 bg-blue-500 rounded-xl text-white"
+                  >
+                    Duyệt
+                  </button>
+                </div>
+                <Link to={`/UnsecurePosts/${post.postId}`}>
+                  <button className="p-2 w-20 mb-1 bg-blue-500 rounded-xl text-white">
+                    Chi tiết
+                  </button>
+                </Link>
+              </>
+            )}
           </div>
         </>
       ),
@@ -133,49 +133,16 @@ export const AccountManager = () => {
   });
 
   return (
-    <div className="px-20 mt-20 pb-20">
-      <div className="flex mb-10 relative overflow-hidden">
-        <div className="w-1/5 text-2xl font-serif rounded-lg text-white bg-red-500 mr-3 relative">
-          <img
-            class="opacity-30 absolute w-full h-auto"
-            src={animalbg}
-            alt=""
-          />
-          <div className="px-5 pt-5 pb-10">Bài Post: {Nop}</div>
-        </div>
-        <div className="w-1/5 text-2xl font-serif rounded-lg text-white bg-orange-500 mr-3 relative">
-          <img
-            class="opacity-30 -bottom-1 absolute w-full h-auto"
-            src={animalbg}
-            alt=""
-          />
-          <div className="px-5 pt-5 pb-10">Bài Trade: {Notp}</div>
-        </div>
-        <div className="w-1/5 text-2xl font-serif rounded-lg text-white bg-green-500 mr-3 relative">
-          <img
-            class="opacity-30 absolute w-full h-auto"
-            src={animalbg}
-            alt=""
-          />
-          <div className="px-5 pt-5 pb-10">Bài Blog: {Nob}</div>
-        </div>
-        <div className="w-1/5 text-2xl font-serif rounded-lg text-white bg-yellow-500 mr-3 relative">
-          <img
-            class="opacity-30 -bottom-1 absolute w-full h-auto"
-            src={animalbg}
-            alt=""
-          />
-          <div className="px-5 pt-5 pb-10">Tài khoản: {Nou}</div>
-        </div>
-        <div className="w-1/5 text-2xl font-serif rounded-lg text-white bg-blue-500 mr-3 relative">
-          <img
-            class="opacity-30 absolute w-full h-auto"
-            src={animalbg}
-            alt=""
-          />
-          <div className="px-5 pt-5 pb-10">Bình luận: {Noc}</div>
-        </div>
-      </div>
+    <div className="px-20 mt-20 py-20">
+      {/* <button
+        onClick={() => {
+          setModalBlog(undefined);
+          handleOpen();
+        }}
+        className="p-2 mb-5 bg-blue-500 rounded-xl text-white"
+      >
+        Tạo Blog
+      </button> */}
       <Paper sx={{ width: "100%", overflow: "hidden" }}>
         <TableContainer sx={{ maxHeight: 440 }}>
           <Table stickyHeader aria-label="sticky table">
@@ -197,7 +164,7 @@ export const AccountManager = () => {
               </TableRow>
             </TableHead>
             <TableBody>
-              {Accounts
+              {Posts
                 ? rows
                     ?.slice(
                       page * rowsPerPage,
@@ -252,6 +219,18 @@ export const AccountManager = () => {
           onRowsPerPageChange={handleChangeRowsPerPage}
         />
       </Paper>
+
+      {/* modal */}
+      {/* <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={createPostImagemodalStyle}>
+          <CreateBlogModal handleClose={handleClose} blog={ModalBlog} />
+        </Box>
+      </Modal> */}
     </div>
   );
 };

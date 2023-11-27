@@ -66,7 +66,11 @@ export const getAdminDashBoard = async() =>{
 export function numberToVietnameseDong(number) {
   // Check if the input is a valid number
   if (isNaN(number)) {
-    return "Invalid input";
+    return 0;
+  }
+
+  if(number == 0){
+    return 0
   }
 
   // Format the number as Vietnamese Dong
@@ -77,6 +81,27 @@ export function numberToVietnameseDong(number) {
   }).format(number);
 
   return formattedNumber;
+}
+
+export function scrollToElement(id) {
+  var element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'smooth'
+    });
+  } else {
+    console.error("Element with ID '" + id + "' not found.");
+  }
+}
+
+export function convertDongToNumber(input) {
+  // Remove the non-numeric characters from the input string
+  const numericString = input.replace(/[^0-9]/g, '');
+
+  // Parse the cleaned string as an integer
+  const numberValue = parseInt(numericString, 10);
+
+  return numberValue;
 }
 
 export default fileToBase64;
